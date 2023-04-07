@@ -1,0 +1,13 @@
+let userNum  = +prompt("Enter your number");
+
+if (userNum> 0){
+    alert ("your number is positive");
+
+}
+else if (userNum < 0){
+    alert ("your number is negative");
+}
+
+else {
+    alert ("your number is 0");
+}
